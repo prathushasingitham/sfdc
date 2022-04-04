@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>singitham.prathusha@nagarro.com</contactEmail>
+    <label>appconnected2</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/callback</callbackUrl>
+        <certificate>MIIC9jCCAd4CCQDn6ZMORUwMgjANBgkqhkiG9w0BAQsFADA9MQswCQYDVQQGEwJpbjELMAkGA1UECBMCeW4xITAfBgNVBAoTGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDAeFw0yMjAzMDQwNjEyMjhaFw0yMzAzMDQwNjEyMjhaMD0xCzAJBgNVBAYTAmluMQswCQYDVQQIEwJ5bjEhMB8GA1UEChMYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwEBakskNRAhbV4YReSJtBsibvahdojM8ExPAd5mIReoW+SWJ1SaN9lv0urDaYNHGXI2LABBd9huokCyRX5j/v1TdzaFiCcRjrH3ymMEVvreMHUpHfNeQ1UxunfzPB+K3EQVr6wCuflPJbGbMn/kW+5UkSNlFbvjN1rjpGIJSHEtIni571FTK4xZd/sQleVyjSSjJMDb8RG3qgJXbR5nh+wzDMB7JM6beoXmZ8VBP76LDxyM+8RNkSu2nrRxJwdVm041tuZWWrRUSsBk+F1+42KiO3Vnj/wB4KtIxtAfMgP2aTezKJ1GZ34ceA87sdPHweWGHn9P0n9sVfLDDIx+yhQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAfxN7BFnkdrBqLi8f3dbTwRTeLdlGvShFC884AvkMGOhpND9V5JMuUD2xPk9TmZt2WE5uPww73Vy/6G4MBKhSBmxJyFMJcK36wTHvvMvgc52fgo5dcqsweN20BQFDQUNwM+Y1N5KKSDCgVTDrouCTTeLR5RdWY0sNqfYYCgwM5yvYrL9AodZIQjBrn0NKRfvGHQtAsj2ijY2LdHn+xUqp5KHCQ03GF2VE5RDEldYunYvm+nskVVGtiOINM3uya0rXWL/rNkIZp8vVezmSX2oRzNtqH8CUCxx0hSxnGkftY7TvHhe7mgI3/fhTfO7fm/S/8A5HQPQfm/eNXqyNq1P8Y</certificate>
+        <consumerKey>3MVG9pRzvMkjMb6k7jK7rh1NdRB10gpYFJgiJ3hHjGWRIFu6hAtsSNrPtjXvLzHKQ5iZtN9LnosS3GaHqw8BW</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
